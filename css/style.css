@@ -164,8 +164,13 @@ p {
 }
 .cell {
     display: flex;
-    justify-content: space-around;
+    flex-flow: row wrap;
+    
 }
 .cell li {
-    margin-bottom: 10px;
+    flex-basis: 20%;
+}
+.cell li {
+    margin: 10px;
+    padding-right: 5px;
 }
